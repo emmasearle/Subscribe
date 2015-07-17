@@ -1,0 +1,168 @@
+
+.mainIssue {
+	width:170%;
+}
+
+/*desktop* view*/
+
+@media screen and (min-width: 960px) {
+
+	#Subscribe h2 {
+		padding:2px;
+		border: 2px solid #dc2121;
+		background: #D82229;
+	    border-bottom:2px solid #dc2121;
+	    font-family: "europa", sans-serif;
+	    font-weight: 400;
+	}
+	.articleListing2012-CopyLed h2, .articleListing2012-Grid h2, .articleListing2012-ImageLed h2, .articleListing2012-Topics h2 {
+		  font-size: 23px;
+		  line-height: 43px;  
+	}
+	.articleListing2012-CopyLed h2, .articleListing2012-Grid h2, .articleListing2012-ImageLed h2, .articleListing2012-Topics h2 {
+		  background: #fff;
+		  border-bottom: 1px solid #eee;
+		  color: #444;
+		  font-family: "europa", sans-serif;
+		  font-weight: 400;
+		  font-size: 21px;
+		  letter-spacing: 2px;
+		  line-height: 38px;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  margin-bottom: 20px;
+		  text-align: center;
+		  text-transform: uppercase;
+		  -webkit-transition: font-size 0.3s ease-out, line-height 0.3s ease-out;
+		  -moz-transition: font-size 0.3s ease-out, line-height 0.3s ease-out;
+		  -o-transition: font-size 0.3s ease-out, line-height 0.3s ease-out;
+		  transition: font-size 0.3s ease-out, line-height 0.3s ease-out;
+	}
+	.InsideIssue h3 {
+		  position: absolute;
+		  right: 20%;
+		  top:50%;
+		  font-size:200%;
+		  font-family: "europa", sans-serif;
+		  color:#666;
+		  text-transform: uppercase;
+	}
+	.mainIssueContent {
+		  position:absolute;
+		  right: 17%;
+		  top: 57%;
+		  width: 300px;
+		  font-family: Georgia, sans-serif;
+		  font-size: 100%;
+		  text-transform: none;
+		  font-style: italic;
+		  padding-top:50px;
+		  text-align:center;
+		  color:#000;
+	}
+	.mainIssueContent h4 {
+		 font-weight: bold;
+		 font-family:"ITC Caslon 224 W01 Book",sans-serif;
+		 font-size:160%;
+		 font-style:none !important;
+	}
+}
+
+/* tablet view */
+
+@media screen and (max-width: 960px) {
+
+	#Subscribe h2 {
+		padding:2px;
+		border: 2px solid #dc2121;
+		background:#D82229;
+		border-bottom:2px solid #dc2121;
+		font-family: "europa", sans-serif;
+		font-weight: 400;
+	}
+	.InsideIssue h3 {
+		  position: absolute;
+		  right: 10%;
+		  top:45%;
+		  font-family: "europa", sans-serif;
+		  font-size:200%;
+		  color:#666;
+		  text-transform: uppercase;
+	}
+	.mainIssueContent {
+		  position:absolute;
+		  right: 8%;
+		  top:50%;
+		  width: 300px;
+		  font-family: Georgia, sans-serif;
+		  font-size:100%;
+		  text-transform:none;
+		  padding-top:50px;
+		  text-align:center;
+		  color:#000;
+		  font-style: italic;
+	}
+.mainIssueContent h4 {
+		 font-weight: bold;
+		 font-family:"ITC Caslon 224 W01 Book",sans-serif;
+		 font-size:160%;
+		 font-style:none !important;
+	}
+}
+
+/*mobile view */
+@media screen and (max-width: 640px) {
+
+	#Subscribe h2 {
+		padding:2px;
+		border: 2px solid #dc2121;
+		background:#D82229;
+		border-bottom:2px solid #dc2121;
+		font-family: "europa", sans-serif;
+		font-weight: 400;
+	}
+	.InsideIssue h3 {
+	   position: absolute;
+	   right: 2%;
+	   top:40%;
+	   font-family: "europa", sans-serif;
+	   font-size:150%;
+	   color:#666;
+	   text-transform: uppercase;
+	}
+	.mainIssueContent img {
+		padding-top:20px;
+	}
+	.mainIssueContent {
+	   position:absolute;
+	   right: 3%;
+	   top:43%;
+	   width: 150px;
+	   font-family: Georgia, sans-serif;
+	   font-size:80%;
+	   text-transform:none;
+	   padding-top:50px;
+	   text-align:center;
+	   color:#000;
+	   font-style: italic;
+	}
+	.articleListing2012-CopyLed h2, .articleListing2012-Grid h2, .articleListing2012-ImageLed h2, .articleListing2012-Topics h2 {
+		  font-size: 23px;
+		  line-height: 43px;
+	}
+	.articleListing2012-CopyLed h2, .articleListing2012-Grid h2, .articleListing2012-ImageLed h2, .articleListing2012-Topics h2 {
+		  background: #fff;
+		  border-bottom: 1px solid #eee;
+		  color: #444;
+		  font-family: "europa", sans-serif;
+		  font-weight: 400;
+		  font-size: 21px;
+		  letter-spacing: 2px;
+		  line-height: 38px;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  margin-bottom: 20px;
+		  text-align: center;
+		  text-transform: uppercase;
+	}
+}
